@@ -21,6 +21,17 @@ abc 사이트를 활성화 할 수 있다.
 
     $ sudo nginx -s reload
 
+## 계정 설정
+
+mac에서는 brew로 nginx를 설치한다.
+사용자 계정으로 동작하니 퍼미션 설정이 별도로 필요없다.
+
+linux에서는 기본 http계정으로 동작한다.\
+http로 동작하면 개발중인 디렉터리에 접근하지 못한다.\
+`nginx.conf`에서 `user`를 세팅해줘야 한다.\
+
+    user drypot wheel;  # arch
+
 ## 기타
 
 자세한 내용은 아래를 참고.
