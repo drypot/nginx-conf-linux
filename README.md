@@ -6,12 +6,9 @@
 
 nginx.conf 를 오픈.
 
-    $ cd /usr/local/etc/nginx
-    $ sudo vim nginx.conf
-
-nginx.conf 설정 적당한 곳에 아래 행을 삽입.
-
-    include /home/drypot/projects/nginx-conf-linux/sites/enabled/*;
+    $ cd /etc/nginx
+    $ sudo mv nginx.conf nginx.conf.org
+    $ sudo cp ~/projects/nginx-conf-linux/nginx.conf .
 
     $ sudo nginx -s reload 
 
