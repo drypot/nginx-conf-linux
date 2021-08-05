@@ -16,9 +16,7 @@ nginx.conf 를 오픈.
 
 abc 사이트를 활성화 할 수 있다.
 
-    $ cd sites  
-    $ ln -s ../abc.conf enabled
-
+    $ ln -s ../abc.conf sites/enabled
     $ sudo nginx -s reload
 
 ## 계정 설정
