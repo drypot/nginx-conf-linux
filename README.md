@@ -34,4 +34,4 @@ http로 동작하면 개발중인 디렉터리에 접근하지 못한다.\
 
 자세한 내용은 아래를 참고.
 
-<https://github.com/drypot/linux-memo>
+<https://github.com/drypot/web-memo>
